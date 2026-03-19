@@ -1,0 +1,12 @@
+def funkcija_linearna():
+    x1y1=input("Unesite prvu x i y koordinatu").split()
+    x2y2=input("Unesite drugu x i y koordinatu").split()
+    tuple1=(tuple(x1y1))
+    tuple2=(tuple(x2y2))
+    print("("+str(float(tuple1[0]))+","+str(float(tuple1[1]))+")")
+    print("("+str(float(tuple2[0]))+","+str(float(tuple2[1]))+")")
+    m=(float(tuple2[1])-float(tuple1[1]))/(float(tuple2[0])-float(tuple1[0]))
+    b=(float(tuple1[0])*float(tuple2[1])-float(tuple2[0])*float(tuple1[1]))/(float(tuple1[0])-float(tuple2[0]))
+    print("Gradijent je: "+str(m))
+    print("Y-odsječak je: "+str(b))
+funkcija_linearna()
