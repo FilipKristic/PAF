@@ -1,7 +1,7 @@
-import zadatak1 as zad
+import particle as par
 import numpy as np
 import matplotlib.pyplot as plt
-cestica=zad.Particle(10,60,0,0)
+cestica=par.Particle(10,60,0,0)
 lista_dt=np.linspace(1e-4, 1e-1, 100)
 lista_numericki=[]
 for dt in lista_dt:

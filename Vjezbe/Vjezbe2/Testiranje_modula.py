@@ -1,16 +1,15 @@
 import calculus as calc
 import numpy as np
 import matplotlib.pyplot as plt
+#Različite funkcije za koje testiram svoju metodu
 def f1(x):
     return np.sin(x)
 def f2(x):
     return x**3
 #Različiti epsiloni za koje testiram svoju metodu
 epsiloni=[1,0.5,0.0001]
-#
-
 for elementi in epsiloni:
-    lista_svih=calc.druga_metoda(0,10,f1,"2-step",elementi)
+    lista_svih=calc.druga_metoda(0,10,f1,"2-step", elementi)
     lista_x=[]
     lista_derivacija=[]
     for element in lista_svih:

@@ -30,9 +30,13 @@ class Particle:
             self.__move()
         x,y=zip(*self.s)
         plt.plot(x,y)
+        plt.xlabel("x-položaj [m]")
+        plt.ylabel("y-položaj [m]")
         plt.show()
 
 
+cestica=Particle(10,45,0,0)
+cestica.plot_trajectory()
 
 
 
