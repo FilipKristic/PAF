@@ -53,7 +53,7 @@ print("Relativne postotne greške gustoće bakra, željeza, aluminija su: "+f"{(
 #Analiza gustoća, eksperimentalne gustoce su redom: rho1=8.87 g/cm3, rho2=7.85 g/cm3, rho3=2.65 g/cm3, 
 #upućuju da su materijali redom bakar, željezo, aluminij
 ####################################
-    
+
 
 
 
