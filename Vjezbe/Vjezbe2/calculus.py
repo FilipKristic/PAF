@@ -52,3 +52,13 @@ def trapezalicca(pocetak,kraj,f,podjele=1000):
 
 
 
+
+
+
+
+
+
+
+
+
+
