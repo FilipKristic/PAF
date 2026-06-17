@@ -32,9 +32,12 @@ def T_model(theta_deg, L):
 ################################
 params, covariance=curve_fit(T_model, kut_deg, T_120)
 l_120=params
+print(f"Najbolje odgovarajuća dužina(jedini parametar u curve_fitu) našem teoretskom modelu je: {l_120}")
 ################################
 params, covariance=curve_fit(T_model, kut_deg, T_240)
 l_240=params
+print(l_240)
+print(f"Najbolje odgovarajuća dužina(jedini parametar u curve_fitu) našem teoretskom modelu je: {l_120}")
 #Izračun relativnih grešaka
 rel_120=abs(l_120-0.12)/0.12*100
 rel_240=abs(l_240-0.24)/0.24*100

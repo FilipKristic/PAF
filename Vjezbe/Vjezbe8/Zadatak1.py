@@ -73,8 +73,8 @@ def fitter_origin(x, y):
     y_fit = gradient * x_fit + intercept
     plt.scatter(x,y)
     plt.plot(x_fit, y_fit)
-    plt.xlabel("x-vrijednosti")
-    plt.ylabel("y-vrijednosti")
+    plt.xlabel("t**2")
+    plt.ylabel("h")
     plt.show()
     return gradient, gradient_uncertainty
 
