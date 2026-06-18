@@ -23,6 +23,8 @@ plt.scatter(fi, M)
 X=np.linspace(0,max(fi),1000)
 Y=a(M,fi)*X+sigma_a(M,fi)
 plt.plot(X,Y)
+plt.xlabel("fi[rad]")
+plt.ylabel("M[Nm]")
 plt.show()
 print("Koeficijent je:"+str(a(M,fi))+" s greškom "+ str(sigma_a(M,fi)))
 
